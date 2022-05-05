@@ -119,7 +119,7 @@ export default {
 
     // footer bottom
     .footer-bottom{
-        height: 80px;
+        height: 90px;
         background-color: $dark;
 
         .container{

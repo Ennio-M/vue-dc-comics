@@ -56,5 +56,6 @@ export default {
     text-transform: uppercase;
     font-size: .9em;
     font-weight: 500;
+    cursor: pointer;
   }
 </style>

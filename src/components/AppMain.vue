@@ -6,16 +6,19 @@
             </div>
         </section>
         <section class="sections">
-            <div class="container">
-            
-            </div>
+            <MainSections/>
         </section>
     </main>
 </template>
 
 <script>
+import MainSections from './MainSections.vue'
+
 export default {
-    name: 'AppMain'    
+    name: 'AppMain',
+    components: {
+        MainSections
+    }   
 }
 </script>
 
@@ -30,7 +33,7 @@ export default {
         line-height: 120px;
     }
     .sections{
-        height: 140px;
+        height: 130px;
         background-color: $dc-blue;
     }
 </style>
