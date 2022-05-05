@@ -1,16 +1,19 @@
 <template>
-  <div id="app" class="container">
+  <div id="app">
     <AppHeader/>
+    <AppMain/>
   </div>
 </template>
 
 <script>
 import AppHeader from './components/AppHeader.vue'
+import AppMain from './components/AppMain.vue'
 
 export default {
   name: 'App',
   components: {
-    AppHeader
+    AppHeader,
+    AppMain
   }
 }
 </script>
@@ -18,9 +21,4 @@ export default {
 <style lang="scss">
   @import './style/variables.scss';
   @import './style/general.scss';
-
-  .container{
-    width: 75%;
-    margin: 0 auto;
-  }
 </style>

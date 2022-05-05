@@ -1,5 +1,6 @@
 <template>
   <header>
+    <div class="container">
       <nav>
         <div class="logo">
           <img src="../assets/imgs/dc-logo.png" alt="DC Logo">
@@ -19,6 +20,7 @@
         </ul>
         </div>
       </nav>
+    </div>
   </header>
 </template>
 

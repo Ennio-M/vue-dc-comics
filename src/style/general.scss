@@ -10,6 +10,12 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.container{
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+}
+
 .active{
     color: $dc-blue;
     border-bottom: 4px solid $dc-blue;
