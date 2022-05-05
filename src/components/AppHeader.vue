@@ -5,20 +5,20 @@
         <div class="logo">
           <img src="../assets/imgs/dc-logo.png" alt="DC Logo">
         </div>
-        <div class="navbar">
+        <section class="navbar">
           <ul>
-          <li>Characters</li>
-          <li class="active">Comics</li>
-          <li>Movies</li>
-          <li>Tv</li>
-          <li>Games</li>
-          <li>Collectibles</li>
-          <li>Videos</li>
-          <li>Fans</li>
-          <li>News</li>
-          <li>Shop</li>
-        </ul>
-        </div>
+            <li>Characters</li>
+            <li class="active">Comics</li>
+            <li>Movies</li>
+            <li>Tv</li>
+            <li>Games</li>
+            <li>Collectibles</li>
+            <li>Videos</li>
+            <li>Fans</li>
+            <li>News</li>
+            <li>Shop</li>
+          </ul>
+        </section>
       </nav>
     </div>
   </header>

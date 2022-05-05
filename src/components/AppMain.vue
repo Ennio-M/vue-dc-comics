@@ -1,15 +1,15 @@
 <template>
     <main>
-        <div class="content">
+        <section class="content">
             <div class="container">
                 <h2>--&gt; Content goes here &lt;--</h2>
             </div>
-        </div>
-        <div class="sections">
+        </section>
+        <section class="sections">
             <div class="container">
             
             </div>
-        </div>
+        </section>
     </main>
 </template>
 
@@ -30,7 +30,7 @@ export default {
         line-height: 120px;
     }
     .sections{
-        height: 150px;
+        height: 140px;
         background-color: $dc-blue;
     }
 </style>
