@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <AppHeader/>
+    <app-header :menu="header"/>
     <AppMain/>
     <AppFooter/>
   </div>
@@ -17,6 +17,52 @@ export default {
     AppHeader,
     AppMain,
     AppFooter
+  },
+  data() {
+      return {
+          header: [
+            {
+              text: 'Characters',
+              active: false
+            },
+            {
+              text: 'Comics',
+              active: true
+            },
+            {
+              text: 'Movies',
+              active: false
+            },
+            {
+              text: 'TV',
+              active: false
+            },
+            {
+              text: 'Games',
+              active: false
+            },
+            {
+              text: 'Collectibles',
+              active: false
+            },
+            {
+              text: 'Videos',
+              active: false
+            },
+            {
+              text: 'Fans',
+              active: false
+            },
+            {
+              text: 'News',
+              active: false
+            },
+            {
+              text: 'Shop',
+              active: false
+            }
+          ]
+      }
   }
 }
 </script>

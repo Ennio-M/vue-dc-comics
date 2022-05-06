@@ -7,16 +7,7 @@
         </div>
         <section class="navbar">
           <ul>
-            <li>Characters</li>
-            <li class="active">Comics</li>
-            <li>Movies</li>
-            <li>Tv</li>
-            <li>Games</li>
-            <li>Collectibles</li>
-            <li>Videos</li>
-            <li>Fans</li>
-            <li>News</li>
-            <li>Shop</li>
+            <li v-for="(item, index) in menu" :key="index" :class="{'active' : item.active}">{{item.text}}</li>
           </ul>
         </section>
       </nav>
@@ -26,7 +17,10 @@
 
 <script>
 export default {
-  name: 'AppHeader'
+  name: 'AppHeader',
+  props: {
+    menu: Object
+  }
 }
 </script>
 
