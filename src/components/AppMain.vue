@@ -1,10 +1,8 @@
 <template>
     <main>
-        <section class="content">
-            <JumboTron/>
-            <div class="container">
-                
-            </div>
+        <JumboTron/>
+        <section class="cards-container">
+            <CardsContainer/>
         </section>
         <section class="sections">
             <MainSections/>
@@ -15,12 +13,14 @@
 <script>
 import MainSections from './MainSections.vue'
 import JumboTron from './JumboTron.vue'
+import CardsContainer from './CardsContainer.vue'
 
 export default {
     name: 'AppMain',
     components: {
         MainSections,
-        JumboTron
+        JumboTron,
+        CardsContainer
     }   
 }
 </script>
@@ -29,8 +29,8 @@ export default {
     @import '../style/variables.scss';
     @import '../style/general.scss';
 
-    .content{
-        height: 400px;
+    .cards-container{
+        background-color: $darker;
     }
     .sections{
         height: 130px;
